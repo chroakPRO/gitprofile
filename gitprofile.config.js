@@ -2,93 +2,129 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'coopersec', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 15, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: [''], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    linkedin: 'christopher-ek-1b8074208',
+    twitter: '',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    website: 'https://arifszn.github.io',
+    medium: '',
+      dev: 'coopersec',
+    website: 'https://oaksec.dev',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'christophereek97@gmail.com',
   },
   skills: [
     'PHP',
-    'Laravel',
-    'JavaScript',
     'React.js',
-    'Node.js',
-    'Nest.js',
     'MySQL',
     'Git',
     'Docker',
-    'PHPUnit',
     'CSS',
     'Antd',
-    'Tailwind',
     'Bootstrap',
+    'Reverse Engineering',
+    'IT-Security',
+    'Linux',
+    'Windows',
+    'Code anylsis',
+    'REST API',
+    'Penetration Testing',
+    'Web Application Testing',
+    'Web Application Development',
+    'Web Application Security',
+    'Python',
+    'Linear regression',
+    'Network and Infrastructure Security',
   ],
   experiences: [
     {
-      company: 'Monstarlab Bangladesh',
-      position: 'Backend Engineer II',
+      company: 'Client (Confidential)',
+      position: 'Säker systemutveckling',
       from: 'September 2021',
       to: 'Present',
+      desc: '',
     },
     {
-      company: 'My Offer 360 Degree',
-      position: 'Web Application Developer',
-      from: 'July 2019',
-      to: 'August 2021',
+      company: 'Client (Confidential)',
+      position: 'Säkerhetsgranskning av system',
+      from: 'Maj 2022',
+      to: 'On going',
+    },
+        {
+      company: 'IT-Säkerhetstekniker (school)',
+      position: 'Simulerad penetrationstestning',
+      from: 'Jun 2022',
+      to: 'Jul 2022',
+    },
+    {
+      company: 'IT-Säkerhetstekniker (school)',
+      position: 'Managering av Docker',
+      from: 'Mars 2022',
+      to: 'Maj 2022',
+    },
+    {
+      company: 'IT-Säkerhetstekniker (school)',
+      position: 'Cloudflare',
+      from: 'feb 2022',
+      to: 'april 2022',
+    },
+    {
+      company: 'CryptoGuard',
+      position: 'Säker systemutveckling',
+      from: 'Jan 2022',
+      to: 'Mars 2022',
+    },
+    {
+      company: 'TelloPrint AB',
+      position: 'IT-säkerhetsspecialist',
+      from: 'Sep 2021',
+      to: 'Feb 2022',
+    },
+    {
+      company: 'Hallsberg Bibliotek',
+      position: 'RSA kryptering med Python',
+      from: 'Mars 2021',
+      to: 'Maj 2021',
+    },
+    {
+      company: 'Hallsberg Bibliotek',
+      position: 'IT administratör och Utvecklare',
+      from: 'Sep 2021',
+      to: 'Feb 2022',
     },
   ],
   education: [
     {
-      institution: 'American International University-Bangladesh',
-      degree: 'Bachelor of Science',
-      from: '2015',
-      to: '2019',
+      institution: 'IT Säkerhetstekniker (Cyber Security)',
+      degree: 'Bachelor degree',
+      from: '2021',
+      to: 'Ongoing',
     },
     {
-      institution: 'Cantonment College, Jessore',
-      degree: 'Higher Secondary Certificate (HSC)',
-      from: '2012',
-      to: '2014',
-    },
-    {
-      institution: 'Chowgacha Shahadat Pilot High School',
-      degree: 'Secondary School Certificate (SSC)',
-      from: '2007',
-      to: '2012',
+      institution: 'Hallsberg Gymnasium',
+      degree: 'Bachelor degree',
+      from: '2017',
+      to: '2020',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'coopersec', // to hide blog section, keep it empty
     limit: 3, // How many posts to display. Max is 10.
   },
-  googleAnalytics: {
-    // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-    id: 'G-WLLB5E14M6', // Please remove this and use your own tag id or keep it empty
-  },
-  hotjar: {
-    id: '2617601', //  Please remove this and use your own id or keep it empty
-    snippetVersion: 6,
-  },
   themeConfig: {
-    defaultTheme: 'corporate',
+    defaultTheme: 'business',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
