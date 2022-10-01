@@ -18,7 +18,7 @@ const config = {
     dribbble: '',
     behance: '',
     medium: '',
-      dev: 'coopersec',
+    dev: 'coopersec',
     website: 'https://oaksec.dev',
     phone: '',
     email: 'christophereek97@gmail.com',
