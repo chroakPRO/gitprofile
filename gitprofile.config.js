@@ -17,8 +17,8 @@ const config = {
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: '',
-    dev: 'coopersec',
+    medium: 'christophereek97',
+    dev: '',
     website: 'https://oaksec.dev',
     phone: '',
     email: 'christophereek97@gmail.com',
@@ -119,8 +119,8 @@ const config = {
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'coopersec', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'christophereek97', // to hide blog section, keep it empty
     limit: 3, // How many posts to display. Max is 10.
   },
   themeConfig: {
