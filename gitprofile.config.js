@@ -49,7 +49,7 @@ const config = {
   experiences: [
       {
       company: 'Iver',
-      position: IT-Specialist',
+      position: 'IT-Specialist',
       from: 'Jan 2024',
       to: 'Present',
       desc: '',
