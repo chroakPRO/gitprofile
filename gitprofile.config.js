@@ -47,18 +47,25 @@ const config = {
     'Network and Infrastructure Security',
   ],
   experiences: [
+      {
+      company: 'Iver',
+      position: IT-Specialist',
+      from: 'Jan 2024',
+      to: 'Present',
+      desc: '',
+    },
     {
       company: 'Client (Confidential)',
       position: 'Säker systemutveckling',
-      from: 'September 2021',
-      to: 'Present',
+      from: 'September 2022',
+      to: 'Nov 2022',
       desc: '',
     },
     {
       company: 'Client (Confidential)',
       position: 'Säkerhetsgranskning av system',
       from: 'Maj 2022',
-      to: 'On going',
+      to: 'Nov 2022',
     },
         {
       company: 'IT-Säkerhetstekniker (school)',
@@ -108,7 +115,7 @@ const config = {
       institution: 'IT Säkerhetstekniker (Cyber Security)',
       degree: 'Bachelor degree',
       from: '2021',
-      to: 'Ongoing',
+      to: '2024',
     },
     {
       institution: 'Hallsberg Gymnasium',
