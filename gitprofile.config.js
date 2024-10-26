@@ -19,7 +19,7 @@ const config = {
     behance: '',
     medium: 'christophereek97',
     dev: '',
-    website: 'https://oaksec.dev',
+    website: 'https://chroak.io',
     phone: '',
     email: 'christophereek97@gmail.com',
   },
@@ -99,7 +99,7 @@ const config = {
     },
     {
       company: 'Hallsberg Bibliotek',
-      position: 'RSA kryptering med Python',
+      position: 'IT',
       from: 'Mars 2021',
       to: 'Maj 2021',
     },
